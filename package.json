@@ -1,6 +1,7 @@
 {
   "name": "sveltekit-pote",
   "version": "0.0.1",
+  "main": "package/index.js",
   "scripts": {
     "package": "svelte-kit package",
     "publish": "svelte-kit package && npm publish ./package"
