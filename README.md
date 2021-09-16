@@ -49,13 +49,13 @@ npm add --save-dev @emagining/sveltekit-pote
 ## Work in Progress
 
 This package was created to serve my own needs. 
-### Todo: 
-[] find a way to remove the span tag
-
 Have a look at these libs to see if they better serve your need:
 
 - [@arzidava/svelte-portable-text](https://github.com/arzidava/svelte-portable-text)
 - [@movingbrands/svelte-portable-text](https://github.com/movingbrands/svelte-portable-text)
+
+### Todo: 
+- [ ] Find a way to remove the span tag
 
 ## Contribute
 Open an issue or make a pull req. :)
