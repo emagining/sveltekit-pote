@@ -1,6 +1,6 @@
 {
   "name": "@emagining/sveltekit-pote",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "main": "package/index.js",
   "scripts": {
     "package": "svelte-kit package",

@@ -5,6 +5,11 @@ Provides a way to render [Portable Text](http://www.portabletext.org) in Svelte 
 Based on [@arzidava/svelte-portable-text](https://github.com/arzidava/svelte-portable-text) but removes the wrapping `<div>` around blocks (paragraphs)
 => "p" blocks will be wrapped in `<p> {paragraph} </p>` instead of `<div><p><span> {paragraph} </span></p></div>`
 
+---
+NOTE: it doens't support `<span>` as a custom mark because that is used by portable text to mark a child node in the block. 
+---
+ 
+
 ## Install
 
 ```
@@ -54,8 +59,6 @@ Have a look at these libs to see if they better serve your need:
 - [@arzidava/svelte-portable-text](https://github.com/arzidava/svelte-portable-text)
 - [@movingbrands/svelte-portable-text](https://github.com/movingbrands/svelte-portable-text)
 
-### Todo: 
-- [ ] Find a way to remove the span tag
 
 ## Contribute
 Open an issue or make a pull req. :)
