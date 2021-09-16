@@ -2,20 +2,20 @@
 
 Provides a way to render [Portable Text](http://www.portabletext.org) in Svelte / SvelteKit applications.
 
-Based on [@arzidava/svelte-portable-text](https://github.com/arzidava/svelte-portable-text) but removes the wrapping `<div>` around blocks (paragraphs) 
-=> "Normal" text will be wrapped in `<p> {paragraph} </p>` instead of `<div><span> {paragraph} </span></div>`
+Based on [@arzidava/svelte-portable-text](https://github.com/arzidava/svelte-portable-text) but removes the wrapping `<div>` around blocks (paragraphs)
+=> "p" blocks will be wrapped in `<p> {paragraph} </p>` instead of `<div><p><span> {paragraph} </span></p></div>`
 
 ## Install
 
 ```
-npm add --save-dev @emagining/sveltekit-pota
+npm add --save-dev @emagining/sveltekit-pote
 ```
 
 ## Usage
 
 ```html
 <script>
-  import BlockContent from '@emagining/sveltekit-pota'
+  import BlockContent from '@emagining/sveltekit-pote'
 
   import Image from '$lib/Image.svelte'
   import Link from '$lib/Link.svelte'
@@ -48,7 +48,11 @@ npm add --save-dev @emagining/sveltekit-pota
 
 ## Work in Progress
 
-This package was created to serve my own needs. Have a look at these libs to see if they better serve your need:
+This package was created to serve my own needs. 
+### Todo: 
+[] find a way to remove the span tag
+
+Have a look at these libs to see if they better serve your need:
 
 - [@arzidava/svelte-portable-text](https://github.com/arzidava/svelte-portable-text)
 - [@movingbrands/svelte-portable-text](https://github.com/movingbrands/svelte-portable-text)

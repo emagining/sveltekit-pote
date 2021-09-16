@@ -2,7 +2,7 @@
 	import { getContext } from 'svelte';
 	import Mark from './Mark.svelte';
 
-	export let _type = '';
+	export let _type = 'block';
 	export let marks = [];
 	export let text = '';
 
